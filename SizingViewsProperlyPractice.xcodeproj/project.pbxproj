@@ -13,6 +13,8 @@
 		AC3AE5A1260ED68900E90872 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC3AE58C260ED68800E90872 /* ContentView.swift */; };
 		AC3AE5A2260ED68900E90872 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AC3AE58D260ED68800E90872 /* Assets.xcassets */; };
 		AC3AE5A3260ED68900E90872 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AC3AE58D260ED68800E90872 /* Assets.xcassets */; };
+		AC3AE5B0260ED73A00E90872 /* BlueTopBannerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC3AE5AF260ED73A00E90872 /* BlueTopBannerView.swift */; };
+		AC3AE5B1260ED73A00E90872 /* BlueTopBannerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC3AE5AF260ED73A00E90872 /* BlueTopBannerView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,7 @@
 		AC3AE59A260ED68900E90872 /* SizingViewsProperlyPractice.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SizingViewsProperlyPractice.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AC3AE59C260ED68900E90872 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		AC3AE59D260ED68900E90872 /* macOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = macOS.entitlements; sourceTree = "<group>"; };
+		AC3AE5AF260ED73A00E90872 /* BlueTopBannerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlueTopBannerView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,8 +60,8 @@
 		AC3AE58A260ED68800E90872 /* Shared */ = {
 			isa = PBXGroup;
 			children = (
+				AC3AE5AE260ED72200E90872 /* Views */,
 				AC3AE58B260ED68800E90872 /* SizingViewsProperlyPracticeApp.swift */,
-				AC3AE58C260ED68800E90872 /* ContentView.swift */,
 				AC3AE58D260ED68800E90872 /* Assets.xcassets */,
 			);
 			path = Shared;
@@ -88,6 +91,15 @@
 				AC3AE59D260ED68900E90872 /* macOS.entitlements */,
 			);
 			path = macOS;
+			sourceTree = "<group>";
+		};
+		AC3AE5AE260ED72200E90872 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				AC3AE58C260ED68800E90872 /* ContentView.swift */,
+				AC3AE5AF260ED73A00E90872 /* BlueTopBannerView.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -187,6 +199,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AC3AE5B0260ED73A00E90872 /* BlueTopBannerView.swift in Sources */,
 				AC3AE5A0260ED68900E90872 /* ContentView.swift in Sources */,
 				AC3AE59E260ED68900E90872 /* SizingViewsProperlyPracticeApp.swift in Sources */,
 			);
@@ -196,6 +209,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AC3AE5B1260ED73A00E90872 /* BlueTopBannerView.swift in Sources */,
 				AC3AE5A1260ED68900E90872 /* ContentView.swift in Sources */,
 				AC3AE59F260ED68900E90872 /* SizingViewsProperlyPracticeApp.swift in Sources */,
 			);
