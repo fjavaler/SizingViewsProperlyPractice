@@ -12,7 +12,7 @@ struct BlueTopBannerView: View {
         ZStack {
             Rectangle()
                 .foregroundColor(.blue)
-                .frame(height: 150, alignment: .center)
+                .frame(height: 120, alignment: .center)
             HStack {
                 Text("Test Text")
                     .font(.largeTitle)
@@ -30,7 +30,7 @@ struct BlueTopBannerView: View {
                 }
                 .frame(height: 40, alignment: .bottom)
             }
-            .frame(height: 120, alignment: .bottom)
+            .frame(height: 100, alignment: .bottom)
             .padding(.horizontal)
             .padding(.bottom)
         }
